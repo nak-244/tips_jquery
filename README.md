@@ -2,6 +2,7 @@
 
 ## 読み込んだjQueryの優先順位
 
-```ruby:qiita.rb
-puts 'The best way to log and share programmers knowledge.'
+```Javascript
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="jquery-1.11.1.min.js."></script>
 ```
