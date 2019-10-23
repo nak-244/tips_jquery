@@ -38,6 +38,7 @@ noConflictの引数にtrueを指定し、jQueryオブジェクトを別名に書
 ### 実例
 ```Javascript
 (function($){
+    // ↓元々のscript
     $(function() {
       var href = "https://sigotora.jp/index.cfm";
       $('#srh_ken_param,#sfw,.srh_jobtype_child_param').on('change', function() {
@@ -49,5 +50,6 @@ noConflictの引数にtrueを指定し、jQueryオブジェクトを別名に書
         $('#test').prop('href', href + "?fuseaction=job.joblist&srh_jobtype_param=5&srh_ken_param=" + srh_ken_param + "&sfw=" + sfw + "&srh_jobtype_child_param=" + srh_jobtype_child_param);
       });
     });
+    // ↑元々のscript
 })($331)
 ```
