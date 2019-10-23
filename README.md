@@ -1,2 +1,7 @@
-# tips_jquery
-複数のjqueryを1つのサイトで併用する場合
+# 複数のバージョンのjQueryを共存させる方法
+
+## 読み込んだjQueryの優先順位
+
+```ruby:qiita.rb
+puts 'The best way to log and share programmers knowledge.'
+```
