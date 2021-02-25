@@ -14,7 +14,7 @@
 
 ```Javascript
 <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
-<script type="text/javascript" src="jquery-1.11.1.min.js."></script>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
 <script type="text/javascript">    
 var $1111 = $.noConflict(true);
 </script>
