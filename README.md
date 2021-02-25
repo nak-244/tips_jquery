@@ -4,7 +4,7 @@
 
 ```Javascript
 <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
-<script type="text/javascript" src="jquery-1.11.1.min.js."></script>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
 ```
 
 この場合、1.11.1バージョンが優先される。
